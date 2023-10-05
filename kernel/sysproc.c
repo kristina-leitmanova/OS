@@ -95,6 +95,9 @@ sys_uptime(void)
 uint64
 sys_hello(void)
 {
-  printf("Hello world\n");
+  char text[512];
+
+  argstr(0, text, 512);
+  printf("%s\n", text);
   return 0;
 }
