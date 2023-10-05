@@ -190,7 +190,7 @@ UPROGS=\
 	$U/_zombie\
 	$U/_hello\
 	$U/_testSquare\
-
+	$U/_cp\
 
 ifeq ($(LAB),$(filter $(LAB), lock))
 UPROGS += \
