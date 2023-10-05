@@ -192,6 +192,7 @@ UPROGS=\
 	$U/_testSquare\
 	$U/_cp\
 	$U/_pfwrite\
+	$U/_run\
 
 ifeq ($(LAB),$(filter $(LAB), lock))
 UPROGS += \
