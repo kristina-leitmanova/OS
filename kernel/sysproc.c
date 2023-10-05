@@ -101,3 +101,15 @@ sys_hello(void)
   printf("%s\n", text);
   return 0;
 }
+
+uint64
+sys_square(void)
+{
+  int number;
+
+  argint(0, &number);
+
+  number = number * number;
+  return number;
+}
+

@@ -189,7 +189,7 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_hello\
-
+	$U/_testSquare\
 
 
 ifeq ($(LAB),$(filter $(LAB), lock))
